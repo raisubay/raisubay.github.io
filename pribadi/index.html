@@ -1,129 +1,73 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Tari</title>
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background: #f4eee5;
-            color: #3b2418;
-        }
-
-        header {
-            background: #6b2f2f;
-            color: white;
-            text-align: center;
-            padding: 35px 20px;
-        }
-
-        header h1 {
-            font-size: 40px;
-            margin-bottom: 10px;
-        }
-
-        header p {
-            font-size: 17px;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 1000px;
-            margin: 40px auto;
-        }
-
-        .video-box {
-            background: white;
-            padding: 20px;
-            border-radius: 18px;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.15);
-        }
-
-        .video {
-            position: relative;
-            width: 100%;
-            padding-bottom: 56.25%;
-            height: 0;
-            overflow: hidden;
-            border-radius: 12px;
-        }
-
-        .video iframe {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            left: 0;
-            top: 0;
-            border: none;
-        }
-
-        .description {
-            text-align: center;
-            margin-top: 30px;
-            background: white;
-            padding: 25px;
-            border-radius: 15px;
-        }
-
-        .description h2 {
-            margin-bottom: 12px;
-            color: #6b2f2f;
-        }
-
-        .description p {
-            line-height: 1.7;
-        }
-
-        footer {
-            margin-top: 50px;
-            padding: 20px;
-            background: #6b2f2f;
-            color: white;
-            text-align: center;
-        }
-    </style>
+    <title>Beranda</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 
-<body>
+<body bgcolor="darkgrey" background="images/background.svg">
+    <!-- Halaman web tanpa CSS. Murni hanya memakai HTML -->
+    <p>&nbsp;</p>
+    <table border="1" width="800px" cellpadding="12px" align="center" bgcolor="white">
+        <tr>
+            <td colspan="2" align="center" bgcolor="teal" background="images/jaring-teal.svg">
+                <font color="white">
+                    <p>&nbsp;</p>
+                    <h1>Website Rais</h1>
+                    <p><em>si rais yang kece.</em></p>
+                    <p>&nbsp;</p>
+                </font>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" bgcolor="pink">
+                <a href="./">Beranda</a> |
+                <a href="tentang-saya.html">Tentang Saya</a> |
+                <a href="sekolahku.html">Sekolahku</a> |
+                <a href="syair-lagu.html">Syair Lagu</a>
+            </td>
+        </tr>
+        <tr>
+            <td width="75%">
+                <!-- Content utama -->
 
-    <header>
-        <h1>VIDEO TARI</h1>
-        <p>Menampilkan video tari tradisional</p>
-    </header>
+                <h3>Pembelajaran Jarak Jauh</h3>
+                <p align="right"><small><em>Senin, 7 September 2026</em></small></p>
+                <p>Karena adanya abu erupsi anak gunung Krakatau, maka selama
+                3 hari ke depan, pembelajaran dilakukan secara jarak jauh.
+                Pembelajaran dapat memakai zoom, LMS, WhatsApp, Telegram,
+                atau media lain yang ditentukan oleh guru.</p>
+                <p><a href="berita/berita-1.html">Selanjutnya</a></p>
 
-    <div class="container">
+                <hr>
 
-        <div class="video-box">
-            <div class="video">
-                <iframe
-                    src="https://www.youtube.com/embed/y_foL31LnYo"
-                    title="Video Tari"
-                    allowfullscreen>
-                </iframe>
-            </div>
-        </div>
+                <h3>Lomba Pembuatan Video</h3>
+                <p align="right"><small><em>Jumat, 4 September 2026</em></small></p>
+                <p>Telah dibuka pendaftaran lomba pembuatan video pendek
+                tentang pariwisata di Tangerang. Lomba ini bekerja sama dengan
+                MGMP DKV Kota Tangerang, yang bertujuan untuk memperkenalkan
+                pariwisata yang ada di kota Tangerang.</p>
+                <p><a href="berita/berita-2.html">Selanjutnya</a></p>
 
-        <div class="description">
-            <h2>Tentang Video</h2>
-            <p>
-                Video ini menampilkan pertunjukan tari yang dapat menjadi
-                referensi untuk mengenal seni dan budaya tradisional Indonesia.
-            </p>
-        </div>
-
-    </div>
-
-    <footer>
-        <p>© 2026 Website Tari Tradisional</p>
-    </footer>
-
+                <!-- Akhir dari content utama -->
+            </td>
+            <td width="25%" valign="top" bgcolor="lightgrey">
+                <p>Tautan eksternal</p>
+                <ol>
+                    <li><a href="https://www.mawan.or.id">Website Rais</a></li>
+                    <li><a href="https://www.github.com">Github</a></li>
+                    <li><a href="https://www.wikipedia.org">Wikipedia</a></li>
+                    <li><a href="https://www.w3schools.com">W3Schools</a></li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="right" bgcolor="black">
+                <font color="white"><small>&copy; Copyright Rais Ubaidillah, 2026.</small></font>
+            </td>
+        </tr>
+    </table>
+    <p>&nbsp;</p>
 </body>
+
 </html>
